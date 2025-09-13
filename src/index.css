@@ -1,0 +1,15 @@
+
+.font-sora{
+ font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-poppins{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
