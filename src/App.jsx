@@ -1,12 +1,15 @@
 
 import './App.css'
+import Banner from './assets/components/banner/Banner'
+import NavBar from './assets/components/NavBar/NavBar'
 
 function App() {
 
 
   return (
     <>
-    <h1>Hey there . project is initialized</h1>
+    <NavBar></NavBar>
+    <Banner></Banner>
 
     </>
   )
