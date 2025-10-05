@@ -12,8 +12,8 @@ const Product = ({ product }) => {
           alt={product.title}
         />
       
-        <div className="min-w-0">
-          <p className="font-medium truncate">{product.title}</p>
+        <div>
+          <p className="font-medium ">{product.title}</p>
         </div>
       </td>
 

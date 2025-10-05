@@ -20,10 +20,10 @@ const AuctionsProducts = () => {
       <p className="mb-4">Discover and bid on extraordinary items</p>
 
       
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-5">
         
         
-        <div className="rounded-2xl shadow-2xl bg-base-100 col-span-3 overflow-x-auto">
+        <div className="rounded-2xl shadow-2xl bg-base-100 col-span-4 overflow-x-auto">
           <table className="table w-full">
             {/* head */}
             <thead>
@@ -43,7 +43,9 @@ const AuctionsProducts = () => {
         </div>
 
         {/* Favorite Items Sidebar */}
-        <SideCard></SideCard>
+        <div className="col-span-1 lg:col-span-2 ">
+          <SideCard></SideCard>
+        </div>
       </div>
     </div>
   );
