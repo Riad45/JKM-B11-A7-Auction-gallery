@@ -5,12 +5,20 @@ import SideCard from "../sidecard/sideCard";
 const AuctionsProducts = () => {
   const [auctionProducts, setAuctionProducts] = useState([]);
 
-  // ✅ fetch only once when component mounts
+
   useEffect(() => {
     fetch("productsData.json")
       .then((res) => res.json())
       .then((data) => setAuctionProducts(data));
   }, []);
+
+
+  const [bidItems, setbidItems] = useState([]);
+
+  const handleBidBtn= (product)=>{
+    setbidItems([...bidItems ,product]);
+  }
+
 
   return (
     <div className="bg-[#EBF0F5] px-[10%] py-[6%]">
@@ -36,15 +44,15 @@ const AuctionsProducts = () => {
             </thead>
             <tbody>
               {auctionProducts.map((product, idx) => (
-                <Product key={idx} product={product} />
+                <Product key={idx} product={product} handleBidBtn = {handleBidBtn} />
               ))}
             </tbody>
           </table>
         </div>
 
-        {/* Favorite Items Sidebar */}
+        {/* Bid Items Sidebar */}
         <div className="col-span-1 lg:col-span-2 ">
-          <SideCard></SideCard>
+          <SideCard bidItems={bidItems}></SideCard>
         </div>
       </div>
     </div>

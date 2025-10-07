@@ -1,7 +1,15 @@
 import React from "react";
 import { TbHammer } from "react-icons/tb";
 
-const Product = ({ product }) => {
+const Product = ({ product , handleBidBtn }) => {
+
+  // const handleBidItem = () =>{
+
+  //   console.log(product);
+
+    
+  // }
+
   return (
     <tr className="text-[#0E2954]">
       
@@ -20,7 +28,7 @@ const Product = ({ product }) => {
       <td className="align-middle">{product.currentBidPrice}</td>
       <td className="align-middle">{product.timeLeft}</td>
       <td className="align-middle">
-        <button><TbHammer size={30} />
+        <button onClick={()=>handleBidBtn(product)} ><TbHammer size={30} />
 </button>
       </td>
     </tr>
