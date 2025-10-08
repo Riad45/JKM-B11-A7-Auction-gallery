@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Product from "../product/product";
 import SideCard from "../sidecard/sideCard";
 
+ import { ToastContainer, toast } from 'react-toastify';
+
 const AuctionsProducts = () => {
   const [auctionProducts, setAuctionProducts] = useState([]);
 
@@ -13,15 +15,28 @@ const AuctionsProducts = () => {
   }, []);
 
 
-  const [bidItems, setbidItems] = useState([]);
+  const [bidItems, setBidItems] = useState([]);
 
   const handleBidBtn= (product)=>{
-    setbidItems([...bidItems ,product]);
+   
+   const isInBidItems = bidItems.find(item => item.id === product.id);
+
+   if(!isInBidItems){
+    setBidItems([product , ...bidItems]);
+    toast.success("Item added to the Bid list");
+   }
+   else{
+    toast.error("Item already in the Bid list");
+   }
   }
 
 
   return (
+    <>
+    <ToastContainer />
+
     <div className="bg-[#EBF0F5] px-[10%] py-[6%]">
+
       <h2 className="mb-4 text-3xl text-[#0E2954] font-extrabold">
         Active Auctions
       </h2>
@@ -56,6 +71,7 @@ const AuctionsProducts = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

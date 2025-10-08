@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Vintage Leica M3 Camera",
     "description": "Classic 35mm film camera from the 1950s, highly sought after by collectors and photography enthusiasts.",
-    "currentBidPrice": "$2,500",
+    "currentBidPrice": 2500,
     "timeLeft": "2h 14m",
     "bidsCount": 17,
     "image": "https://i.postimg.cc/764hHjyq/Bid1-min.png"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "1965 Gibson SG Standard Electric Guitar",
     "description": "Iconic cherry red Gibson SG, famous for its sharp double-cutaway body and played by legendary rock guitarists.",
-    "currentBidPrice": "$12,000",
+    "currentBidPrice": 12000,
     "timeLeft": "5h 48m",
     "bidsCount": 23,
     "image": "https://i.postimg.cc/kG1gy4R5/Bid2-min.png"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Original Apple Macintosh 128K (1984)",
     "description": "The first Macintosh computer, released in 1984. A piece of computing history, fully functional with keyboard and mouse.",
-    "currentBidPrice": "$25,000",
+    "currentBidPrice": 25000,
     "timeLeft": "1d 3h",
     "bidsCount": 41,
     "image": "https://i.postimg.cc/2SBS4Ckz/Bid3-min.png"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "Rolex Submariner 16610",
     "description": "Classic stainless steel Rolex Submariner, automatic movement, black dial, and rotating bezel. Timeless luxury.",
-    "currentBidPrice": "$9,500",
+    "currentBidPrice": 9500,
     "timeLeft": "3d 11h",
     "bidsCount": 36,
     "image": "https://i.postimg.cc/zfZX74vT/Bid4-min.png"
@@ -39,7 +39,7 @@
     "id": 5,
     "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
     "description": "A rare first edition, first printing (1925) of Fitzgerald’s masterpiece, featuring the original dust jacket.",
-    "currentBidPrice": "$180,000",
+    "currentBidPrice": 180000,
     "timeLeft": "4d 22h",
     "bidsCount": 12,
     "image": "https://i.postimg.cc/JhN72KHv/Bid5-min.png"
@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Mid-Century Modern Eames Lounge Chair",
     "description": "Original 1956 design by Charles and Ray Eames. Iconic leather and molded plywood lounge chair with ottoman.",
-    "currentBidPrice": "$6,500",
+    "currentBidPrice": 6500,
     "timeLeft": "8h 37m",
     "bidsCount": 19,
     "image": "https://i.postimg.cc/wv9x8Jhv/Bid6-min.png"
@@ -57,7 +57,7 @@
     "id": 7,
     "title": "Banksy Original Screen Print",
     "description": "Rare authenticated Banksy screen print, featuring his signature street art style and social commentary.",
-    "currentBidPrice": "$120,000",
+    "currentBidPrice": 120000,
     "timeLeft": "6d 4h",
     "bidsCount": 28,
     "image": "https://i.postimg.cc/xjxfhXqf/Bid7-min.png"
