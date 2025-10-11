@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
 
 
-const SideCard = ({ bidItems }) => {
+const SideCard = ({ bidItems ,handleCancelBtn }) => {
   const [totalBidAmount, setTotalBidAmount] = useState(0);
 
   useEffect(() => {
@@ -12,6 +12,7 @@ const SideCard = ({ bidItems }) => {
     );
     setTotalBidAmount(total);
   }, [bidItems]);
+  
 
   return (
     <div>
@@ -42,8 +43,8 @@ const SideCard = ({ bidItems }) => {
                         </div>
                       </div>
 
-                      <button>
-                        {" "}
+                      <button onClick={()=>handleCancelBtn(item)}>
+                        
                         <MdOutlineCancel size={30} />
                       </button>
                     </div>
