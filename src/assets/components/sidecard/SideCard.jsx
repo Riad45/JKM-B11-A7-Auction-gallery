@@ -64,7 +64,7 @@ const SideCard = ({ bidItems ,handleCancelBtn }) => {
 
             <tr>
               <td className="flex justify-between text-lg font-bold ">
-                <h3>Total Bid Amount</h3>
+                <h3>Total Bid Amount:</h3>
                 <h3>{totalBidAmount}</h3>
               </td>
             </tr>
