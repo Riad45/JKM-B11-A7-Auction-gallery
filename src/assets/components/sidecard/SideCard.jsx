@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { MdOutlineCancel } from "react-icons/md";
+import { ImHammer2 } from "react-icons/im";
 
 
 const SideCard = ({ bidItems ,handleCancelBtn }) => {
@@ -20,7 +21,7 @@ const SideCard = ({ bidItems ,handleCancelBtn }) => {
         <table className="table">
           <thead>
             <tr>
-              <th className="text-center text-xl">Bid Items</th>
+              <th className="flex justify-center items-center gap-3 text-xl "> <ImHammer2 size={25} /> Bid Items</th>
             </tr>
           </thead>
           <tbody>
@@ -56,7 +57,7 @@ const SideCard = ({ bidItems ,handleCancelBtn }) => {
                 <td className="text-center">
                   <h3 className="text-lg font-bold">No Bid Item yet</h3> <br />
                   <p className="px-5">
-                    Click the heart icon on any item to add it to your favorites
+                    Click the Bid icon on any item to add it to your Bid list
                   </p>
                 </td>
               </tr>
